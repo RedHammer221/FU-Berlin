@@ -1,0 +1,24 @@
+lim f/g =
+Fall 1.) ist 0=> 
+f <- O(g), aber die Abschätzung ist zu grob
+Beispiel: f(n) = n     g(n) = n**2
+lim f(n)/g(n) = lim n/n**2 = lim 1/n = 0
+=> n <- O(n**2), aber die Abschätzung ist grob
+Fall 2.) existiert > 0
+f(n) = n     g(n) 2n+3
+lim f(n)/g(n) = lim n/(2n+3) =
+lim n/(n(2+3/n)) = lim 1/(2+3/n) = 1/2 
+=> O(f) = O(g)
+Fall 3.) ist unendlich => g <- O(f), aber nicht gleich
+
+
+
+   (*)Ordne aufsteigend:
+
+1.)O(10**(10**10))                    2.)O(n**7 -4n**5 +3n**2+1/2n**8 +30)
+
+      3.) O(ln(n)n + 15)              4.) O(sqrt(n) + n)                  5.)O(4**n)
+
+ 6.)O(ln(n**3))                  7.)O(n*ln(n)**2 + n**2)                   8.)O(n!)
+
+                9) O(2**n + 3**n)                         10.)O(n**2/10 * n**3/10)
